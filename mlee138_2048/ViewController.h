@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *Row1;
+- (IBAction)handleSwipe:(UIGestureRecognizer *)sender;
 
 
 @end

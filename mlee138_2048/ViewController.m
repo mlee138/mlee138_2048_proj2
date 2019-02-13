@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController
+@synthesize Row1;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,4 +27,8 @@
 }
 
 
+- (IBAction)handleSwipe:(id)sender {
+    NSLog(@"swiped");
+    [Row1 setText:@"swiped"];
+}
 @end
